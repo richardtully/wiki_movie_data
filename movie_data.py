@@ -60,8 +60,8 @@ for url in big_list:
 
 
 # This let's us save (pickle) the info we find. Be careful, it will overwrite our old file!
-with open('wiki_movie_info.pickle','wb') as handle:
-	pickle.dump(movie_data_list, handle, protocol=pickle.HIGHEST_PROTOCOL)
+# with open('wiki_movie_info.pickle','wb') as handle:
+# 	pickle.dump(movie_data_list, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
 
 
